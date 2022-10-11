@@ -1,6 +1,6 @@
-// Calculadora
-// de Notas
-// Escolares
+// *********************** //
+// School Grade Calculator //
+// *********************** //
 function getScore(score) {
   let scoreA = score >= 90 && score <= 100;
   let scoreB = score < 90 && score >= 80;
@@ -38,9 +38,9 @@ console.log(getScore(50));
 console.log(getScore(39));
 console.log(getScore(-002));
 
-// Sistema de
-// Gastos
-// Familiares
+// ********************** //
+// Family Spending System //
+// ********************** //
 let family = {
   incomes: [2500, 1850, 235.9, 37.52],
   expenses: [92.52, 100, 87.9, 5000],
@@ -75,9 +75,9 @@ function calculateBalance() {
 
 calculateBalance();
 
-// Conversor
-// de Celsius
-// para Fahrenheit
+// ********************* //
+// Temperature Converter //
+// ********************* //
 function transformDegree(degree) {
   const celsiusExists = degree.toUpperCase().includes("C");
   const fahrenheitExists = degree.toUpperCase().includes("F");
