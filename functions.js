@@ -110,3 +110,45 @@ try {
 } catch (error) {
   console.log(error.message);
 }
+
+// ********************** //
+// Fetching Data in Array //
+// ********************** //
+const booksByCategory = [
+  {
+    category: "Riqueza",
+    books: [
+      {
+        title: "Os Segredos da Mente Milionária",
+        author: "T. Harv Eker",
+      },
+      {
+        title: "O Homem Mais Rico da Babilônia",
+        author: "George S. Clason",
+      },
+      {
+        title: "Pai Rico, Pai Pobre",
+        author: "Robert T. Kiyosaki e Sharon L. Lechter",
+      },
+    ],
+  },
+  {
+    category: "Inteligência Emocional",
+    books: [
+      {
+        title: "Você é Insubstituível",
+        author: "Augusto Cury",
+      },
+      {
+        title: "Ansiedade – Como Enfrentar o Mal do Século",
+        author: "Augusto Cury",
+      },
+      {
+        title: "Os 7 Hábitos das Pessoas Altamente Eficazes",
+        author: "Stephen R. Covey",
+      },
+    ],
+  },
+];
+
+const totalCategories = booksByCategory.length;
